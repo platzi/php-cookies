@@ -1,0 +1,20 @@
+{
+    "name": "retaxmaster/composer-psr",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "RetaxMaster",
+            "email": "retaxmaster@hotmail.com"
+        }
+    ],
+    "autoload": {
+        "files" : [
+            "app/Logic/CreateMichis.php"
+        ],
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "require": {}
+}
