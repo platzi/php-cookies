@@ -1,0 +1,17 @@
+{
+    "name": "retaxmaster/traits",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "RetaxMaster",
+            "email": "retaxmaster@hotmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "require": {}
+}
